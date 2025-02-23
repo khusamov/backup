@@ -1,15 +1,23 @@
 {
   "name": "khusamov-backup",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Создание резервных копий git-репозиторий",
+  "author": "Khusamov Sukhrob",
   "main": "index.js",
+  "bin": "index.js",
+  "files": ["index.js"],
+  "keywords": [],
+  "license": "MIT",
+  "packageManager": "yarn@1.22.19+sha1.4ba7fc5c6e704fce2066ecbfb0b0d8976fe62447",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "bin": "index.js",
-  "keywords": [],
-  "author": "",
-  "license": "MIT",
-  "packageManager": "yarn@1.22.19+sha1.4ba7fc5c6e704fce2066ecbfb0b0d8976fe62447",
-  "files": ["index.js"]
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:khusamov/backup.git"
+  },
+  "bugs": {
+    "url": "https://github.com/khusamov/backup/issues",
+    "email": "khusamov@yandex.ru"
+  }
 }
