@@ -1,13 +1,13 @@
 #! /usr/bin/env node
 
+import {resolve} from 'path'
 import {config} from 'dotenv'
 import {Octokit} from 'octokit'
 import packageInformation from './package.json' with {type: 'json'}
 const {description} = packageInformation
 
-config()
+config({path: resolve(process.cwd(), '.env')})
 console.log(description)
-
 
 // https://github.com/settings/personal-access-tokens/5367542
 const token = process.env.TOKEN
