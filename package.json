@@ -3,9 +3,12 @@
   "version": "0.0.3",
   "description": "Создание резервных копий git-репозиторий",
   "author": "Khusamov Sukhrob",
+  "type": "module",
   "main": "index.js",
   "bin": "index.js",
-  "files": ["index.js"],
+  "files": [
+    "index.js"
+  ],
   "keywords": [],
   "license": "MIT",
   "packageManager": "yarn@1.22.19+sha1.4ba7fc5c6e704fce2066ecbfb0b0d8976fe62447",
@@ -19,5 +22,12 @@
   "bugs": {
     "url": "https://github.com/khusamov/backup/issues",
     "email": "khusamov@yandex.ru"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "octokit": "^4.1.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.5"
   }
 }
