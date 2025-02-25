@@ -12,10 +12,10 @@
     "dist/index.js"
   ],
   "scripts": {
-    "compile": "tsc",
-    "watch": "tsc --watch",
+    "build": "bun build src/index.ts --outdir ./dist --target node --packages external",
+    "build:watch": "bun build src/index.ts --outdir ./dist --target node --packages external --watch",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepublishOnly": "yarn compile",
+    "prepublishOnly": "bun run build",
     "json2ts": "json2ts --input src/interfaces/github/schemas --output src/interfaces/github"
   },
   "keywords": [
@@ -38,6 +38,7 @@
     "octokit": "^4.1.2"
   },
   "devDependencies": {
+    "@types/bun": "^1.2.3",
     "@types/figlet": "^1.7.0",
     "@types/node": "^22.13.5",
     "json-schema-to-typescript": "^15.0.4",
