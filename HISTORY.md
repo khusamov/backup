@@ -11,6 +11,10 @@ https://bun.sh/
 https://esbuild.github.io/  
 https://rollupjs.org/
 
+Вопрос, кстати, а может подключить Электрон? Для него сборщик есть специальный:  
+https://electron-vite.org/  
+https://www.electronjs.org/docs/latest/  
+
 2025-02-24 [prepublish, json2ts]
 --------------------------------
 
