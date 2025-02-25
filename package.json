@@ -1,6 +1,6 @@
 {
   "name": "khusamov-backup",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Создание резервных копий git-репозиторий",
   "author": "Khusamov Sukhrob",
   "type": "module",
