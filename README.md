@@ -21,3 +21,9 @@ TOKEN = <Сюда добавьте токен Fine-grained tokens>
 
 Токен следует сгенерировать на странице:
 https://github.com/settings/personal-access-tokens/
+
+Куда делать копии?
+------------------
+
+https://gitverse.ru/
+https://gitflic.ru/
