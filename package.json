@@ -4,16 +4,19 @@
   "description": "Создание резервных копий git-репозиторий",
   "author": "Khusamov Sukhrob",
   "type": "module",
-  "main": "index.js",
-  "bin": "index.js",
+  "main": "src/index.ts",
+  "bin": "dist/index.js",
   "files": [
-    "index.js"
+    "dist/index.js"
   ],
-  "keywords": [],
+  "keywords": ["github", "tools", "utilites", "backup"],
   "license": "MIT",
   "packageManager": "yarn@1.22.19+sha1.4ba7fc5c6e704fce2066ecbfb0b0d8976fe62447",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile": "tsc",
+    "watch": "tsc --watch",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "compile"
   },
   "repository": {
     "type": "git",
@@ -28,6 +31,7 @@
     "octokit": "^4.1.2"
   },
   "devDependencies": {
-    "@types/node": "^22.13.5"
+    "@types/node": "^22.13.5",
+    "typescript": "^5.7.3"
   }
 }

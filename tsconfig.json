@@ -1,0 +1,26 @@
+{
+	"extends": ["./tsconfig.strict.json"],
+	"include": ["src/**/*"],
+	"compilerOptions": {
+		"baseUrl": "src",
+		"rootDir": "src",
+		"outDir": "dist",
+
+		"lib": ["ESNext", "DOM"],
+		"target": "ESNext",
+		"module": "NodeNext",
+		"moduleResolution": "NodeNext",
+
+		"removeComments": true,
+		"declaration": false,
+		"sourceMap": false,
+
+		"allowJs": false,
+		"skipLibCheck": true,
+		"resolveJsonModule": true,
+		"allowSyntheticDefaultImports": true,
+		"esModuleInterop": true,
+		"experimentalDecorators": true,
+		"isolatedModules": false
+	}
+}
