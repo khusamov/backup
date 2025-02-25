@@ -16,6 +16,8 @@ https://tsup.egoist.dev/
 https://electron-vite.org/  
 https://www.electronjs.org/docs/latest/  
 
+Перейти на `bun.sh` удалось успешно. Пока без особых проблем. Осталось проверить публикацию.
+
 2025-02-24 [prepublish, json2ts]
 --------------------------------
 
