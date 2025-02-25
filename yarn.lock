@@ -306,6 +306,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/figlet@npm:^1.7.0":
+  version: 1.7.0
+  resolution: "@types/figlet@npm:1.7.0"
+  checksum: 198cec9860485d9c5ff8b38b7cbb64d3494a5b0dc0aa5d0453552e5efd47ef1634e396f136d21385773a51b107cde58693646bf2a46e66c24f0b7a00667c48b0
+  languageName: node
+  linkType: hard
+
 "@types/json-schema@npm:^7.0.15":
   version: 7.0.15
   resolution: "@types/json-schema@npm:7.0.15"
@@ -376,6 +383,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"figlet@npm:^1.8.0":
+  version: 1.8.0
+  resolution: "figlet@npm:1.8.0"
+  bin:
+    figlet: bin/index.js
+  checksum: b59233a46e7f93fa08f3b7e86e6b24a9ae02cd94cfa2e9b8277311edf543a7a67ec278cd47846304f710f7dcbb9c28507ebcd113bc7b2e3094415ec229bb2a9a
+  languageName: node
+  linkType: hard
+
 "is-extglob@npm:^2.1.1":
   version: 2.1.1
   resolution: "is-extglob@npm:2.1.1"
@@ -426,8 +442,10 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "khusamov-backup@workspace:."
   dependencies:
+    "@types/figlet": ^1.7.0
     "@types/node": ^22.13.5
     dotenv: ^16.4.7
+    figlet: ^1.8.0
     json-schema-to-typescript: ^15.0.4
     octokit: ^4.1.2
     typescript: ^5.7.3

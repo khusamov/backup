@@ -34,9 +34,11 @@
   },
   "dependencies": {
     "dotenv": "^16.4.7",
+    "figlet": "^1.8.0",
     "octokit": "^4.1.2"
   },
   "devDependencies": {
+    "@types/figlet": "^1.7.0",
     "@types/node": "^22.13.5",
     "json-schema-to-typescript": "^15.0.4",
     "typescript": "^5.7.3"

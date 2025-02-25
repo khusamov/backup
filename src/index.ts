@@ -3,10 +3,15 @@
 import {resolve} from 'path'
 import {config} from 'dotenv'
 import {Octokit} from 'octokit'
+import figlet from 'figlet'
 import packageInformation from '../package.json' with {type: 'json'}
 import {getUserInformation} from './functions/getUserInformation'
 import {getUserRepositories} from './functions/getUserRepositories'
 const {description, version} = packageInformation
+
+figlet('Backup', (_err, data) => {
+	console.log(data)
+})
 
 config({path: resolve(process.cwd(), '.env')})
 console.log(description)
