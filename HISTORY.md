@@ -10,6 +10,7 @@
 https://bun.sh/  
 https://esbuild.github.io/  
 https://rollupjs.org/
+https://tsup.egoist.dev/
 
 Вопрос, кстати, а может подключить Электрон? Для него сборщик есть специальный:  
 https://electron-vite.org/  
