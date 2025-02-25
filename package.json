@@ -7,9 +7,7 @@
   "type": "module",
   "main": "src/index.ts",
   "packageManager": "yarn@1.22.19+sha1.4ba7fc5c6e704fce2066ecbfb0b0d8976fe62447",
-  "bin": {
-    "khusamov-backup": "dist/index.js"
-  },
+  "bin": "dist/index.js",
   "files": [
     "dist/index.js"
   ],
@@ -17,7 +15,8 @@
     "compile": "tsc",
     "watch": "tsc --watch",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepublishOnly": "yarn compile"
+    "prepublishOnly": "yarn compile",
+    "json2ts": "json2ts --input src/interfaces/github/schemas --output src/interfaces/github"
   },
   "keywords": [
     "github",
@@ -39,6 +38,7 @@
   },
   "devDependencies": {
     "@types/node": "^22.13.5",
+    "json-schema-to-typescript": "^15.0.4",
     "typescript": "^5.7.3"
   }
 }
