@@ -4,10 +4,11 @@ import {resolve} from 'path'
 import {config} from 'dotenv'
 import {Octokit} from 'octokit'
 import packageInformation from '../package.json' with {type: 'json'}
-const {description} = packageInformation
+const {description, version} = packageInformation
 
 config({path: resolve(process.cwd(), '.env')})
 console.log(description)
+console.log('Версия:', version)
 
 // https://github.com/settings/personal-access-tokens/5367542
 const token = process.env['TOKEN']
